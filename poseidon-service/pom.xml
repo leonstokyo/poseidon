@@ -9,7 +9,8 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>poseidon-rest</artifactId>
+    <groupId>jp.tokyo.leon.service</groupId>
+    <artifactId>poseidon-service</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -17,19 +18,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+
     <dependencies>
-
-        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>jp.tokyo.leon.dao</groupId>
+            <artifactId>poseidon-dao</artifactId>
+            <version>${revision}</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-
     </dependencies>
 
 </project>

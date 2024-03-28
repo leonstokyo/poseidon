@@ -29,5 +29,7 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+**/pom-xml-flattened
+
 ### VS Code ###
 .vscode/
