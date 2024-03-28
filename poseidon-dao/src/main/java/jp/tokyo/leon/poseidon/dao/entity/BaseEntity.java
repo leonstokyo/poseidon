@@ -1,4 +1,4 @@
-package jp.tokyo.leon.dao.entity;
+package jp.tokyo.leon.poseidon.dao.entity;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -28,5 +28,5 @@ public abstract class BaseEntity implements Serializable {
     private LocalDateTime createTime;
 
     @LastModifiedDate
-    private LocalDateTime modifyTime;
+    private LocalDateTime updateTime;
 }

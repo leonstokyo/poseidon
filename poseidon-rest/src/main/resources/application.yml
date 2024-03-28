@@ -1,2 +1,13 @@
 server:
   port: 4321
+
+spring:
+  datasource:
+    username: root
+    password: 71114411
+    url: jdbc:mysql://localhost:3306/poseidon-admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true

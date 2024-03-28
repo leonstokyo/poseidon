@@ -6,30 +6,15 @@
     <parent>
         <groupId>jp.tokyo.leon</groupId>
         <artifactId>poseidon</artifactId>
-        <version>${revision}</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>poseidon-service</artifactId>
+    <artifactId>poseidon-api</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-
-    <dependencies>
-        <dependency>
-            <groupId>jp.tokyo.leon</groupId>
-            <artifactId>poseidon-dao</artifactId>
-            <version>${revision}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>jp.tokyo.leon</groupId>
-            <artifactId>poseidon-api</artifactId>
-            <version>${revision}</version>
-        </dependency>
-    </dependencies>
 
 </project>

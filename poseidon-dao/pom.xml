@@ -9,7 +9,6 @@
         <version>${revision}</version>
     </parent>
 
-    <groupId>jp.tokyo.leon.dao</groupId>
     <artifactId>poseidon-dao</artifactId>
 
     <properties>

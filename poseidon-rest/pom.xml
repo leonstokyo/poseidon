@@ -30,6 +30,20 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
+
+        <!-- 内部模块 -->
+        <dependency>
+            <groupId>jp.tokyo.leon</groupId>
+            <artifactId>poseidon-service</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>jp.tokyo.leon</groupId>
+            <artifactId>poseidon-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
 </project>

@@ -1,4 +1,4 @@
-package jp.tokyo.leon.dao.entity;
+package jp.tokyo.leon.poseidon.dao.entity;
 
 import jakarta.persistence.Entity;
 import lombok.Getter;
