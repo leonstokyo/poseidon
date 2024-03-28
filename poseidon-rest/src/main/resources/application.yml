@@ -11,3 +11,14 @@ spring:
     database: mysql
     database-platform: org.hibernate.dialect.MySQL8Dialect
     show-sql: true
+
+
+
+leon:
+  poseidon:
+    jwt:
+      header: Authorization
+      expire: 604800 # 7天，s为单位
+      secret: abcdefghabcdefghabcdefghabcdefgh
+      issuer: leon-poseidon-security
+      token-header: Bearer

@@ -41,7 +41,13 @@
         <dependency>
             <groupId>jp.tokyo.leon</groupId>
             <artifactId>poseidon-common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${revision}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>jp.tokyo.leon</groupId>
+            <artifactId>poseidon-authorization</artifactId>
+            <version>${revision}</version>
         </dependency>
 
     </dependencies>
